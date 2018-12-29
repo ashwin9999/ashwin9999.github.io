@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP on Ashwin Mishra</title>
+    <link>/tags/nlp/</link>
+    <description>Recent content in NLP on Ashwin Mishra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Natural Language Processing</title>
+      <link>/project/nlp/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/nlp/</guid>
+      <description>This is an on-going project that involves building a sentiment analyzer that analyzes the sentiments behind the professor-reviews on RateMyProfessor. It also will be able to perform a sentiment analysis on the student evaluation forms submitted and other evaluation surveys conducted by Youngstown State University. The testing and training data was provided by Youngstown State University in the form of anonymous student evaluation data. The process involves tokenizing the dataset into words, filtering the stop-words (words that do not have polarity), and finally calculating the total polarity using Naive Bayes Classifier.</description>
+    </item>
+    
+  </channel>
+</rss>

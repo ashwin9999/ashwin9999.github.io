@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eye Tracking on Ashwin Mishra</title>
+    <link>/tags/eye-tracking/</link>
+    <description>Recent content in Eye Tracking on Ashwin Mishra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/eye-tracking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eye Tracking</title>
+      <link>/project/eye-tracking/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/eye-tracking/</guid>
+      <description>I worked as a Research Associate for the Software Engineering Research &amp;amp; Empirical Studies Laboratory at Youngstown State University. I led the development of iTrace-Eclipse and iTrace-Chrome which were plugins for Eclipse IDE and Google Chrome that would gather the eye gazes using an Eye Tracker and map them to the elements on the screen. This was particularly useful to analyze the differences between a professional programmer and a novice programmer while fixing bugs (by analyzing the elements they look at during fixing bugs).</description>
+    </item>
+    
+  </channel>
+</rss>

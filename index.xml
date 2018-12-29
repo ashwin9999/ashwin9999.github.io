@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ashwin Mishra on Ashwin Mishra</title>
+    <link>/</link>
+    <description>Recent content in Ashwin Mishra on Ashwin Mishra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>iTrace</title>
+      <link>/publication/itrace/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/itrace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eye Tracking</title>
+      <link>/project/eye-tracking/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/eye-tracking/</guid>
+      <description>&lt;p&gt;I worked as a Research Associate for the Software Engineering Research &amp;amp; Empirical Studies Laboratory at Youngstown State University. I led the development of iTrace-Eclipse and iTrace-Chrome which were plugins for Eclipse IDE and Google Chrome that would gather the eye gazes using an Eye Tracker and map them to the elements on the screen. This was particularly useful to analyze the differences between a professional programmer and a novice programmer while fixing bugs (by analyzing the elements they look at during fixing bugs). While the code for the project is private, an archived version of the project for iTrace-Eclipse can be found &lt;a href=&#34;https://github.com/ashwin9999/iTrace-Archive&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Natural Language Processing</title>
+      <link>/project/nlp/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/nlp/</guid>
+      <description>&lt;p&gt;This is an on-going project that involves building a sentiment analyzer that analyzes the sentiments behind the professor-reviews on RateMyProfessor. It also will be able to perform a sentiment analysis on the student evaluation forms submitted and other evaluation surveys conducted by Youngstown State University. The testing and training data was provided by Youngstown State University in the form of anonymous student evaluation data. The process involves tokenizing the dataset into words, filtering the stop-words (words that do not have polarity), and finally calculating the total polarity using Naive Bayes Classifier.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href = &#34;https://github.com/ashwin9999/StudentEval_Analyzer&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;&#34;&gt;&lt;code&gt;Code Repository for the project&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Web Crawling</title>
+      <link>/project/web-crawling/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/web-crawling/</guid>
+      <description>&lt;p&gt;This project was focused around web crawling using a python library called Scrapy. The goal was to build a web crawler that would crawl the website (www.dealnews.com) and fecth all the deals and place them into relevant categories. Initially, the deals were stored in a local server, but after integrating an automatic crawl scheduler (crawled data four times a day) the storage was shifted to an Amazon S3 server. Additionally, a recommender system was built that used k-NN to recommend deals to users based on their search preferences.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
