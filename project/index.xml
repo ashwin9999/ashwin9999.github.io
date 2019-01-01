@@ -38,6 +38,15 @@
       <guid>/project/web-crawling/</guid>
       <description>This project was focused around web crawling using a python library called Scrapy. The goal was to build a web crawler that would crawl the website (www.dealnews.com) and fecth all the deals and place them into relevant categories. Initially, the deals were stored in a local server, but after integrating an automatic crawl scheduler (crawled data four times a day) the storage was shifted to an Amazon S3 server. Additionally, a recommender system was built that used k-NN to recommend deals to users based on their search preferences.</description>
     </item>
+
+    <item>
+      <title>Virtual Disk Image Scanner</title>
+      <link>/project/virtual-box-scanner/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/virtual-box-scanner/</guid>
+      <description>This is an implementation of a program that copies files into and out of a Virtual Disk Image file that contains a Linux EXT2 Filesystem.</description>
+    </item>
     
   </channel>
 </rss>
