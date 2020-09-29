@@ -10,7 +10,7 @@
 
     <meta
       name="description"
-      content="Sentiment Analysis on professor-reviews"
+      content="Sentiment Analysis"
     />
 
     <link
@@ -85,7 +85,7 @@
     <meta property="og:title" content="Sentiment Analysis | Ashwin Mishra" />
     <meta
       property="og:description"
-      content="Sentiment Analysis on professor-reviews"
+      content="Sentiment Analysis"
     />
     <meta property="og:locale" content="en-us" />
 
@@ -230,15 +230,30 @@
 
         <div class="article-style" itemprop="articleBody">
           <p>
-            This is an on-going project that involves building a sentiment
-            analyzer that will be able to perform a sentiment analysis on the
+            A sentiment analyzer that will be able to perform sentiment analysis on the
             student evaluation forms submitted and other evaluation surveys
             conducted by Youngstown State University. The testing and training
             data was provided by Youngstown State University in the form of
             anonymous student evaluation data. The process involves tokenizing
             the dataset into words, filtering the stop-words (words that do not
-            have polarity), and finally calculating the total polarity using
+            have polarity), stemming and finally classifying the sentiment using a
             Naive Bayes Classifier.
+
+            To test and live demo the project, I created a React app that determines
+            the sentiment behind the typed text instantly using our classifier on the back-end.
+            <b>Since the app is hosted for free on Heroku, it can sometimes take about a minute to load.</b>
+          </p>
+          <p>
+            <a
+              href="https://sentiment-analyzer-ysu.herokuapp.com/"
+              target="_blank"
+              style="text-decoration: none"
+              ><code>Link to the React app</code></a
+            >
+          </p>
+
+          <p>
+            <img src="/img/sentiment.gif" class="img-responsive">
           </p>
         </div>
 
